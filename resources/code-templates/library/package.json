@@ -1,0 +1,29 @@
+{
+  "name": "@rdapp/example",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@rdapp/node-logger": "^1.0.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "scripts": {
+    "test": "node ./src/test/basicNodeTest.js",
+    "doc": "documentation build ./src/index.js -f md -o README.md"
+  },
+  "homepage": "http://git.rdapp.com/xxx/example",
+  "repository": {
+    "type": "git",
+    "url": "http://git.rdapp.com/xxx/example.git"
+  },
+  "keywords": [
+    "example"
+  ],
+  "author": "example",
+  "license": "MIT",
+  "description": "example"
+}

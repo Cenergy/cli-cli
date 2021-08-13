@@ -1,0 +1,6 @@
+{
+    "server": {
+        "host": "example.service.rdapp.internal",
+        "timeout": 10000
+    }
+}

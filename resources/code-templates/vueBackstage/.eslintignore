@@ -1,0 +1,11 @@
+tailwind.config.js
+tailwind-v0.js
+
+# Ignore built files except build/index.js
+dist/*
+node_modules/*
+public/*
+.vscode/*
+
+# !build/index.js
+webpack.config.js
